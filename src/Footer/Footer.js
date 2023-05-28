@@ -24,6 +24,7 @@ function Footer() {
           </div>
           <div className="footer-contact">
             <Button variant="contained">Contact today !</Button>
+            
           </div>
         </div>
         <div className="footer-help">

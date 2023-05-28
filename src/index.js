@@ -10,9 +10,13 @@ import Premires from "./Premires/Premires.js"
 import EventsNearBy from "./EventsNearBy/EventsNearBy.js"
 import OnlineEvents from "./OnlineEvents/OnlineEvents.js";
 import Footer from "./Footer/Footer.js";
+import NavBar from "./NavBar/NavBar.tsx"
+import NavBarBottom from './NavBar/NavBarBottom.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+  <NavBar/>
+  <NavBarBottom/>
   <Movies/>
   <LiveEvents/>
   <Premires/>
